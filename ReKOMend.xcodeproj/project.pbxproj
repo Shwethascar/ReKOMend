@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D74108E81819AD5000C3B6C8 /* SDArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D74108E71819AD5000C3B6C8 /* SDArticleCell.m */; };
+		D74108EB1819E83F00C3B6C8 /* SDArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = D74108EA1819E83F00C3B6C8 /* SDArticle.m */; };
+		D74108EE181A08CA00C3B6C8 /* SDArticleDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74108ED181A08CA00C3B6C8 /* SDArticleDetailsViewController.m */; };
 		D7A40BEB181953E200EFFCBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A40BEA181953E200EFFCBE /* Foundation.framework */; };
 		D7A40BED181953E200EFFCBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A40BEC181953E200EFFCBE /* CoreGraphics.framework */; };
 		D7A40BEF181953E200EFFCBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A40BEE181953E200EFFCBE /* UIKit.framework */; };
@@ -15,13 +18,18 @@
 		D7A40BFB181953E200EFFCBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A40BFA181953E200EFFCBE /* AppDelegate.m */; };
 		D7A40BFE181953E200EFFCBE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A40BFC181953E200EFFCBE /* Main_iPhone.storyboard */; };
 		D7A40C01181953E200EFFCBE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A40BFF181953E200EFFCBE /* Main_iPad.storyboard */; };
-		D7A40C04181953E200EFFCBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A40C03181953E200EFFCBE /* ViewController.m */; };
+		D7A40C04181953E200EFFCBE /* SDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A40C03181953E200EFFCBE /* SDLoginViewController.m */; };
 		D7A40C06181953E200EFFCBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A40C05181953E200EFFCBE /* Images.xcassets */; };
 		D7A40C0D181953E200EFFCBE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A40C0C181953E200EFFCBE /* XCTest.framework */; };
 		D7A40C0E181953E200EFFCBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A40BEA181953E200EFFCBE /* Foundation.framework */; };
 		D7A40C0F181953E200EFFCBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A40BEE181953E200EFFCBE /* UIKit.framework */; };
 		D7A40C17181953E200EFFCBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7A40C15181953E200EFFCBE /* InfoPlist.strings */; };
 		D7A40C19181953E200EFFCBE /* ReKOMendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A40C18181953E200EFFCBE /* ReKOMendTests.m */; };
+		D7A40C2518195F0E00EFFCBE /* SDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A40C2418195F0E00EFFCBE /* SDSearchViewController.m */; };
+		D7A40C2718196BA000EFFCBE /* BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7A40C2618196BA000EFFCBE /* BG.jpg */; };
+		D7A40C281819765300EFFCBE /* GodOfWar.TTF in Resources */ = {isa = PBXBuildFile; fileRef = D7A40C2218195A2D00EFFCBE /* GodOfWar.TTF */; };
+		D7A40C2E18197EA700EFFCBE /* NSMutableDictionary+SDUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A40C2D18197EA700EFFCBE /* NSMutableDictionary+SDUserData.m */; };
+		D7A40C3118199BB800EFFCBE /* SDNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A40C3018199BB800EFFCBE /* SDNewsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D74108E61819AD5000C3B6C8 /* SDArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDArticleCell.h; sourceTree = "<group>"; };
+		D74108E71819AD5000C3B6C8 /* SDArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDArticleCell.m; sourceTree = "<group>"; };
+		D74108E91819E83F00C3B6C8 /* SDArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDArticle.h; sourceTree = "<group>"; };
+		D74108EA1819E83F00C3B6C8 /* SDArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDArticle.m; sourceTree = "<group>"; };
+		D74108EC181A08CA00C3B6C8 /* SDArticleDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDArticleDetailsViewController.h; sourceTree = "<group>"; };
+		D74108ED181A08CA00C3B6C8 /* SDArticleDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDArticleDetailsViewController.m; sourceTree = "<group>"; };
 		D7A40BE7181953E200EFFCBE /* ReKOMend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReKOMend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A40BEA181953E200EFFCBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7A40BEC181953E200EFFCBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +61,22 @@
 		D7A40BFA181953E200EFFCBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D7A40BFD181953E200EFFCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D7A40C00181953E200EFFCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		D7A40C02181953E200EFFCBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7A40C03181953E200EFFCBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7A40C02181953E200EFFCBE /* SDLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLoginViewController.h; sourceTree = "<group>"; };
+		D7A40C03181953E200EFFCBE /* SDLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLoginViewController.m; sourceTree = "<group>"; };
 		D7A40C05181953E200EFFCBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D7A40C0B181953E200EFFCBE /* ReKOMendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReKOMendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A40C0C181953E200EFFCBE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D7A40C14181953E200EFFCBE /* ReKOMendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReKOMendTests-Info.plist"; sourceTree = "<group>"; };
 		D7A40C16181953E200EFFCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7A40C18181953E200EFFCBE /* ReKOMendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReKOMendTests.m; sourceTree = "<group>"; };
+		D7A40C2218195A2D00EFFCBE /* GodOfWar.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GodOfWar.TTF; sourceTree = "<group>"; };
+		D7A40C2318195F0E00EFFCBE /* SDSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSearchViewController.h; sourceTree = "<group>"; };
+		D7A40C2418195F0E00EFFCBE /* SDSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSearchViewController.m; sourceTree = "<group>"; };
+		D7A40C2618196BA000EFFCBE /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG.jpg; sourceTree = "<group>"; };
+		D7A40C2C18197EA700EFFCBE /* NSMutableDictionary+SDUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SDUserData.h"; sourceTree = "<group>"; };
+		D7A40C2D18197EA700EFFCBE /* NSMutableDictionary+SDUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SDUserData.m"; sourceTree = "<group>"; };
+		D7A40C2F18199BB800EFFCBE /* SDNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDNewsTableViewController.h; sourceTree = "<group>"; };
+		D7A40C3018199BB800EFFCBE /* SDNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDNewsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +140,22 @@
 				D7A40BFA181953E200EFFCBE /* AppDelegate.m */,
 				D7A40BFC181953E200EFFCBE /* Main_iPhone.storyboard */,
 				D7A40BFF181953E200EFFCBE /* Main_iPad.storyboard */,
-				D7A40C02181953E200EFFCBE /* ViewController.h */,
-				D7A40C03181953E200EFFCBE /* ViewController.m */,
+				D7A40C02181953E200EFFCBE /* SDLoginViewController.h */,
+				D7A40C03181953E200EFFCBE /* SDLoginViewController.m */,
+				D7A40C2F18199BB800EFFCBE /* SDNewsTableViewController.h */,
+				D7A40C3018199BB800EFFCBE /* SDNewsTableViewController.m */,
+				D7A40C2318195F0E00EFFCBE /* SDSearchViewController.h */,
+				D7A40C2418195F0E00EFFCBE /* SDSearchViewController.m */,
 				D7A40C05181953E200EFFCBE /* Images.xcassets */,
 				D7A40BF1181953E200EFFCBE /* Supporting Files */,
+				D7A40C2C18197EA700EFFCBE /* NSMutableDictionary+SDUserData.h */,
+				D7A40C2D18197EA700EFFCBE /* NSMutableDictionary+SDUserData.m */,
+				D74108E61819AD5000C3B6C8 /* SDArticleCell.h */,
+				D74108E71819AD5000C3B6C8 /* SDArticleCell.m */,
+				D74108E91819E83F00C3B6C8 /* SDArticle.h */,
+				D74108EA1819E83F00C3B6C8 /* SDArticle.m */,
+				D74108EC181A08CA00C3B6C8 /* SDArticleDetailsViewController.h */,
+				D74108ED181A08CA00C3B6C8 /* SDArticleDetailsViewController.m */,
 			);
 			path = ReKOMend;
 			sourceTree = "<group>";
@@ -129,8 +163,10 @@
 		D7A40BF1181953E200EFFCBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7A40C2218195A2D00EFFCBE /* GodOfWar.TTF */,
 				D7A40BF2181953E200EFFCBE /* ReKOMend-Info.plist */,
 				D7A40BF3181953E200EFFCBE /* InfoPlist.strings */,
+				D7A40C2618196BA000EFFCBE /* BG.jpg */,
 				D7A40BF6181953E200EFFCBE /* main.m */,
 				D7A40BF8181953E200EFFCBE /* ReKOMend-Prefix.pch */,
 			);
@@ -231,8 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A40C281819765300EFFCBE /* GodOfWar.TTF in Resources */,
 				D7A40C01181953E200EFFCBE /* Main_iPad.storyboard in Resources */,
 				D7A40C06181953E200EFFCBE /* Images.xcassets in Resources */,
+				D7A40C2718196BA000EFFCBE /* BG.jpg in Resources */,
 				D7A40BFE181953E200EFFCBE /* Main_iPhone.storyboard in Resources */,
 				D7A40BF5181953E200EFFCBE /* InfoPlist.strings in Resources */,
 			);
@@ -253,9 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A40C04181953E200EFFCBE /* ViewController.m in Sources */,
+				D74108E81819AD5000C3B6C8 /* SDArticleCell.m in Sources */,
+				D74108EB1819E83F00C3B6C8 /* SDArticle.m in Sources */,
+				D7A40C04181953E200EFFCBE /* SDLoginViewController.m in Sources */,
 				D7A40BFB181953E200EFFCBE /* AppDelegate.m in Sources */,
+				D74108EE181A08CA00C3B6C8 /* SDArticleDetailsViewController.m in Sources */,
 				D7A40BF7181953E200EFFCBE /* main.m in Sources */,
+				D7A40C2518195F0E00EFFCBE /* SDSearchViewController.m in Sources */,
+				D7A40C2E18197EA700EFFCBE /* NSMutableDictionary+SDUserData.m in Sources */,
+				D7A40C3118199BB800EFFCBE /* SDNewsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +518,7 @@
 				D7A40C1E181953E200EFFCBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7A40C1F181953E200EFFCBE /* Build configuration list for PBXNativeTarget "ReKOMendTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +527,7 @@
 				D7A40C21181953E200EFFCBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
